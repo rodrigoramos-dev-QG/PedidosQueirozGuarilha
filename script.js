@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.removeChild(link);
 
         const mensagem = `Pedido de ${nome}: ${dados.slice(2).map(e => `${e[0]}: ${e[1]}`).join(", ")}`;
-        const whatsappLink = `https://wa.me/5522988472248?text=${encodeURIComponent(mensagem)}`;
+        const whatsappLink = `https://wa.me/5521968132839?text=${encodeURIComponent(mensagem)}`;
         window.open(whatsappLink, "_blank");
 
         alert("Seu pedido foi enviado com sucesso!");
