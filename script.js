@@ -48,7 +48,9 @@ document.addEventListener("DOMContentLoaded", function() {
         "REPOLHO ROXO UNIDADE",
         "ERVA DOCE UNIDADE",
         "MANJERONA UNIDADE",
-        "LOURO UNIDADE"
+        "LOURO UNIDADE",
+        "SALSA CRESPA UNIDADE"
+        
     ];
 
     const produtosTable = document.getElementById("produtos-table");
